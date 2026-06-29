@@ -1,6 +1,8 @@
 # Quran Router | موجه بيانات القرآن الكريم
 
-هذه الفكرة مستوحاة من نقاش تقني ثري دار في [مجتمع إتقان](https://community.itqan.dev/d/113) بدأه الأستاذ @iphoneislam حول "الهشاشة التقنية" لمصادر الصوتيات القرآنية، وحاجة المطورين إلى بنية تحتية مشتركة تشبه **OpenRouter** ولكن لبيانات وصوتيات القرآن الكريم.
+[![itqan: ناقش](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSIyMCI+PGcgZmlsbD0iI2ZmZiI+PHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjMTBiOTgxIi8+PHJlY3QgeD0iNDAiIHdpZHRoPSI0MCIgaGVpZ2h0PSIyMCIgZmlsbD0iIzFlMjkzYiIvPjx0ZXh0IHg9IjIwIiB5PSIxNCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMCIgZm9udC13ZWlnaHQ9ImJvbGQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNmZmYiPml0cWFuPC90ZXh0Pjx0ZXh0IHg9IjYwIiB5PSIxNCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iI2Y4ZmFmYyI+2YbYp9mC2LQ8L3RleHQ+PC9nPjwvc3ZnPg==)](https://community.itqan.dev/d/399)
+
+هذه الفكرة مستوحاة من نقاش تقني ثري دار في [مجتمع إتقان](https://community.itqan.dev/d/399) بدأه الأستاذ @iphoneislam حول "الهشاشة التقنية" لمصادر الصوتيات القرآنية، وحاجة المطورين إلى بنية تحتية مشتركة تشبه **OpenRouter** ولكن لبيانات وصوتيات القرآن الكريم.
 
 ## ⚠️ المشكلة: التشتت والتبعية
 أحد أكبر التحديات التي تواجه المطورين عند بناء تطبيقات القرآن الكريم هو **تشتت البيانات**. فمثلاً، تجد واجهة برمجة (API) "أ" يرسل لك الآيات في مصفوفة باسم `verses` بينما API "ب" يرسلها باسم `ayahs` وببنية مختلفة تماماً.
@@ -86,7 +88,7 @@
 ## 💬 خاتمة
 كما ذكرتُ سابقاً في نقاشي مع الأستاذ طارق، البداية قد تكون بسيطة عبر توحيد معايير الوصول للبيانات (Routing)، مما يفتح الباب مستقبلاً لبناء شبكات تخزين مؤقت (Caching) وخدمات CDN عالمية تخدم كافة التطبيقات الإسلامية.
 
-*للاطلاع على النقاش الأصلي: [مجتمع إتقان - مشكلة مصادر الصوتيات](https://community.itqan.dev/d/113)*
+*للاطلاع على النقاش الأصلي: [مجتمع إتقان - مشكلة مصادر الصوتيات](https://community.itqan.dev/d/399)*
 
 ---
 **رابط التجربة الحية:** [https://hadealahmad.github.io/quranrouter/](https://hadealahmad.github.io/quranrouter/)
